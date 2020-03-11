@@ -1,4 +1,4 @@
-# DATAWEREHOUSE FOR SONGPLAYS ANALISYS
+# DATAWEREHOUSE FOR SONGPLAYS ANALYSIS
 
 ## Summary 
 This project involves the data modeling of an OLAP database from the song and event datasets, they are modelled with this architecture in order to perform heavy analitycal queries. To achieve this we first choose to use a non-relational schema in the staging phase and a start schema in the delivery phase, because it makes it easy for bussiness user to make analisys in this type of schema, after that we choose the infraestructure which is a cluster in aws redshift  with 2 nodes of 160GB of ssd each. 
